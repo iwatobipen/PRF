@@ -1,6 +1,6 @@
 import numpy
-from numba import jit, jitclass
-
+from numba.experimental import jitclass
+from numba import jit
 from .  import misc_functions as m
 
 #from importlib import reload
