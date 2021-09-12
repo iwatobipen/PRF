@@ -1,5 +1,6 @@
 import numpy
-from numba.experimental import jit, jitclass
+from numba.experimental import jitclass
+from numba import jit
 from scipy.stats import norm
 
 cache = True
